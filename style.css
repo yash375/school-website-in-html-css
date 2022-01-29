@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;0,900;1,100;1,200&display=swap');
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.section1{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  position: relative;
+  max-width: 90px;
+}
+
+header ul{
+  position: relative;
+  display: flex;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.content{
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textbox{
+  position: relative;
+  max-width: 700px;
+}
+.content .textbox h2{
+  color: #333;
+  font-size: 3em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textbox h2 span{
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.content .textbox p{
+  color: #333;
+}
+.content .textbox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.content .imgbox{
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+.content .imgbox img{
+  max-width: 1400px;
+}
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(700px at right 760px);
+  /* clip-path: circle(600px at right 800px); */
+}
+
+.image img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(700px at right 760px);
+}
+
+
+.content .textbox p {
+    position: relative;
+    margin-right: 90px;
+    font-size: 17px;
+}
+
+
+/* about school css start */
+
+.about_school{
+  background-color: #fff;
+  height: 600px;
+  width: 100%;
+}
+.about_school h2{
+  color: #333;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+.main{
+  display: flex;
+  padding: 10px;
+}
+.inner1{
+  width: 50%;
+  height: 420px;
+  /* background-color: #333; */
+  background-image: url(choosing-bg.jpg);
+}
+.inner2{
+  width: 50%;
+  height: 420px;
+  /* background-color: #017143; */
+  background-image: url(choosing-bg.jpg);
+}
+#tabs {
+  text-align: center;
+}
+#tabs ul {
+  margin: 0;
+  padding: 0;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+#tabs ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#tabs ul li {
+  display: block;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+#tabs ul li a {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: 0;
+  padding-bottom: 30px;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#tabs h4 {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tabs p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 28px;
+}
+.inner1 img{
+  margin-top: 60px;
+}
+.about_school .line_img{
+  margin-left: 48%;
+}
+/* about school css stop */
+
+
+
+
+
+/* footer start */
+
+
+.footer{
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #017143;
+  color: #fff;
+  height: 50px;
+}
+footer p {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  position: relative;
+  top: 5px;
+  padding: 13px 0px;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.footer p a{
+  color: #bfd200;
+}
+.footer p a:hover{
+  color: orange;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+ 
+  
+}
